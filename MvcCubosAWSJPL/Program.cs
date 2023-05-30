@@ -25,8 +25,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("corsenabled");
-
+app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
